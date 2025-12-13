@@ -6,6 +6,8 @@
   color: #243e63;
 }
 
+/* NAVBAR */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -66,4 +68,31 @@ a {
 
 .sign-up:hover {
   background-color: rgb(80, 17, 204);
+}
+
+/* HEADER */
+
+.purple {
+  color: #6415ff;
+}
+
+.header {
+  margin: 48px 48px 64px 48px;
+  padding: 32px;
+}
+
+.email__setup {
+  width: 37%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding: 8px;
 }
