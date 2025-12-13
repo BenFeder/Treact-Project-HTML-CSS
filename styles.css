@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 32px;
+}
+
+.nav__logo__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  padding: 16px;
+}
+
+.nav__links,
+.nav__login--links {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  font-weight: bold;
+}
+
+.sign-up {
+  background-color: #6415ff;
+  color: #fff;
+  border-radius: 9999px;
+  padding: 10px 32px;
+}
+
+.sign-up:hover {
+  background-color: rgb(80, 17, 204);
+}
