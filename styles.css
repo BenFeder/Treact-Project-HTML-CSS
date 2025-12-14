@@ -522,4 +522,44 @@ h2 {
   .quality__row p {
     font-size: 16px;
   }
+
+  /* STEPS SECTION */
+
+  .get-started__row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .get-started__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .steps__super--wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .steps__super--wrapper h6 {
+    text-align: center;
+  }
+
+   .steps__super--wrapper h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .steps--wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .steps--wrapper h2 {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
 }
