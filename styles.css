@@ -254,7 +254,8 @@ h2 {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  max-width: 320px;
+  max-width: 280px;
+  margin-bottom: 40px;
 }
 
 .feature--wrapper h2 {
@@ -266,6 +267,7 @@ h2 {
 .feature--text p {
   margin-top: 8px;
   color: #909baa;
+  line-height: 2;
 }
 
 /* TABLETS AND MOBILE DEVICES  */
