@@ -225,6 +225,12 @@ h2 {
 .features__row h1 {
   font-weight: 900;
 }
+
+.features__row h1 .purple {
+  display: block;
+  text-align: center;
+}
+
 .features__row p {
   color: #909baa;
   display: flex;
@@ -279,7 +285,6 @@ h2 {
   }
 
   nav {
-    /* flex-direction: column; */
     gap: 24px;
   }
 
@@ -342,5 +347,19 @@ h2 {
 
   .setup__img {
     max-width: 100%;
+  }
+
+  .feature--wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .features__row h1 {
+    font-size: 32px;
+  }
+
+  .features__row p {
+    font-size: 16px;
   }
 }
