@@ -23,6 +23,10 @@
   display: flex;
 }
 
+.open__mobile--menu {
+  display: none;
+}
+
 /* LANDING */
 
 #landing {
@@ -395,6 +399,20 @@ h2 {
 /* TABLETS AND MOBILE DEVICES  */
 
 @media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
+
+  .open__mobile--menu {
+    display: block;
+    margin-left: auto;
+    scale: 2;
+  }
+
+  .mobile__menu--btn {
+    border: none;
+  }
+
   #landing {
     padding: 0 24px;
   }
@@ -546,7 +564,7 @@ h2 {
     text-align: center;
   }
 
-   .steps__super--wrapper h1 {
+  .steps__super--wrapper h1 {
     text-align: center;
     font-size: 28px;
     font-weight: 900;
