@@ -248,6 +248,7 @@ h2 {
   border: 1px solid rgb(160, 174, 192, 0.5);
   border-radius: 50%;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .feature--wrapper {
