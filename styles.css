@@ -306,7 +306,6 @@ h2 {
   font-size: 40px;
   font-weight: 800;
   line-height: 1.5;
-  text-align: left;
 }
 
 .quality__text p {
@@ -451,16 +450,13 @@ h2 {
   .quality__img {
     width: 100%;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    scale: 1;
   }
 
   .quality__img img {
     width: 100%;
     height: auto;
-    max-width: 100%;
-    object-fit: contain;
+    display: block;
   }
 
   .quality__row h1 {
