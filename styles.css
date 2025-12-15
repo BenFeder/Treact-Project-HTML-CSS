@@ -485,6 +485,10 @@ h2 {
 
 /* PLANS SECTION */
 
+#plans {
+  margin-top: 96px;
+}
+
 .plans__row {
   flex-direction: column;
   align-items: center;
@@ -941,5 +945,32 @@ h2 {
 
   .learn-more__btn {
     align-self: center;
+  }
+
+  /* PLANS MOBILE */
+
+  #plans {
+    margin-top: 128px;
+  }
+
+  .plans__row {
+    gap: 24px;
+  }
+
+  .plans__row h1 {
+    text-align: center;
+  }
+
+  .pricing__row {
+    flex-direction: column;
+    margin-top: 48px;
+    padding: 0 24px;
+  }
+
+  .pricing__card--1,
+  .pricing__card--2,
+  .pricing__card--3 {
+    max-width: 100%;
+    width: 100%;
   }
 }
