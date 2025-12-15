@@ -404,14 +404,55 @@ h2 {
 
 @media (max-width: 768px) {
   .hide {
-    transform: translateX(100%);
-    display: none;
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    animation: slideOut 300ms ease forwards;
+    pointer-events: none;
   }
 
   .show {
     display: flex;
     flex-direction: column;
-    transform: translateX(0%);
+    animation: slideIn 300ms ease forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(100%);
+      visibility: hidden;
+    }
   }
 
   .nav__links {
@@ -422,6 +463,8 @@ h2 {
     display: block;
     margin-left: auto;
     scale: 2.75;
+    position: relative;
+    z-index: 1001;
   }
 
   .mobile__menu--btn {
