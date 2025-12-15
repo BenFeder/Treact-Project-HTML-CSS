@@ -713,4 +713,59 @@ h2 {
     margin-bottom: 16px;
     margin-right: 0;
   }
+
+  /* PRINCIPLES MOBILE */
+
+  #principles .container {
+    flex-direction: column-reverse;
+  }
+
+  #principles .row {
+    flex-direction: column-reverse;
+  }
+
+  .principles__text-button--section {
+    width: 100%;
+    padding-right: 0;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  .principles__text {
+    text-align: center;
+    align-items: center;
+  }
+
+  .principles__text h1 {
+    text-align: center;
+  }
+
+  .principles__text p {
+    font-size: 14px;
+  }
+
+  .principles__items {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .affordable__title,
+  .professionalism__title {
+    justify-content: center;
+  }
+
+  .afford__para,
+  .prof__para {
+    text-align: center;
+  }
+
+  .principles__img {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .learn-more__btn {
+    align-self: center;
+  }
 }
