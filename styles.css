@@ -400,6 +400,89 @@ h2 {
   line-height: 2;
 }
 
+/* PRINCIPLES SECTION */
+
+.principles__text-button--section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 32px;
+}
+
+.principles__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.principles__text h6 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.principles__text h1 {
+  font-weight: bold;
+}
+
+.principles__text p {
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
+.principles__items {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 32px;
+}
+
+.affordable__title,
+.professionalism__title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.afford__para,
+.prof__para {
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.affordable__title,
+.professionalism__title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.affordable__img,
+.professionalism__img {
+  padding: 10px;
+  border-radius: 50%;
+  scale: 0.75;
+}
+
+.affordable__img {
+  background-color: #9ae6b4;
+}
+
+.professionalism__img {
+  background-color: #feb2b2;
+}
+
+.learn-more__btn {
+  width: fit-content;
+}
+
+.principles__img {
+  width: 50%;
+}
+
 /* TABLETS AND MOBILE DEVICES  */
 
 @media (max-width: 768px) {
