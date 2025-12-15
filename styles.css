@@ -403,7 +403,8 @@ h2 {
 /* TABLETS AND MOBILE DEVICES  */
 
 @media (max-width: 768px) {
-  .hide {
+  .hide,
+  .show {
     display: flex !important;
     flex-direction: column;
     position: fixed;
@@ -416,24 +417,15 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 32px;
+  }
+
+  .hide {
     animation: slideOut 300ms ease forwards;
     pointer-events: none;
   }
 
   .show {
-    display: flex;
-    flex-direction: column;
     animation: slideIn 300ms ease forwards;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
   }
 
   @keyframes slideIn {
