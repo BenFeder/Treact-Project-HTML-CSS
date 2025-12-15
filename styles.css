@@ -95,6 +95,10 @@ li:not(:last-of-type):hover {
   padding: 16px;
 }
 
+.mobile__nav--links {
+  display: none;
+}
+
 .btn {
   background-color: #6415ff;
   color: #fff;
@@ -399,6 +403,17 @@ h2 {
 /* TABLETS AND MOBILE DEVICES  */
 
 @media (max-width: 768px) {
+  .hide {
+    transform: translateX(100%);
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(0%);
+  }
+
   .nav__links {
     display: none;
   }
