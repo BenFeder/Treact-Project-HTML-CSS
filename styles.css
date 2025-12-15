@@ -1091,4 +1091,37 @@ h2 {
     max-width: 100%;
     width: 100%;
   }
+
+  /* TESTIMONIALS MOBILE */
+  .testimonials__row {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  .testimonials__img,
+  .testimonials__desc {
+    width: 100%;
+  }
+
+  .user__profile__desc {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .star-rating {
+    justify-content: center;
+  }
+
+  .testimonial__scroll {
+    position: static;
+    margin-top: 24px;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .testimonial__left--arrow::after {
+    right: -9px;
+  }
 }
