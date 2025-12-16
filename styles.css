@@ -1332,4 +1332,42 @@ footer {
   .get__started__bottom--btn {
     background-color: red;
   }
+
+  /* FOOTER MOBILE */
+  .footer__links {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    margin: 0 40px;
+  }
+
+  .footer__links__div {
+    margin: 16px 0;
+    flex-basis: 28%;
+    min-width: 80px;
+  }
+
+  .logo__copy__social {
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 48px;
+    margin-top: 48px;
+  }
+
+  .logo__copy__social p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .logo__name__wrapper {
+    order: 1;
+  }
+
+  .logo__copy__social p {
+    order: 2;
+  }
+
+  .footer__social {
+    order: 3;
+  }
 }
