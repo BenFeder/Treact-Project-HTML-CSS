@@ -779,6 +779,64 @@ h2 {
   font-size: 16px;
 }
 
+/* DEVELOPERS BOTTOM SECTION */
+
+.bg-purple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #6415ff;
+  width: 100%;
+  height: auto;
+  padding: 64px 64px;
+  margin-bottom: 96px;
+}
+
+.bg-purple h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+.buttons__bottom__group {
+  display: flex;
+  margin-right: 64px;
+  justify-content: end;
+  gap: 48px;
+  width: 50%;
+}
+
+.get__started__bottom--btn {
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+  border: none;
+  padding: 24px 48px;
+  border-radius: 9999px;
+}
+
+.get__started__bottom--btn:hover {
+  transition: all 300ms ease;
+  background-color: red;
+}
+
+.contact__us__bottom--btn {
+  font-weight: bold;
+  color: white;
+  background-color: #6415ff;
+  border: 1px solid white;
+  padding: 24px 48px;
+  border-radius: 9999px;
+}
+
+.contact__us__bottom--btn:hover {
+  transition: all 300ms ease;
+  background-color: white;
+  color: #6415ff;
+}
+
 /* TABLETS AND MOBILE DEVICES  */
 
 @media (max-width: 768px) {
@@ -970,7 +1028,7 @@ h2 {
     font-size: 16px;
   }
 
-  /* STEPS SECTION */
+  /* STEPS MOBILE SECTION */
 
   .get-started__row {
     flex-direction: column;
@@ -1123,5 +1181,44 @@ h2 {
 
   .testimonial__left--arrow::after {
     right: -9px;
+  }
+
+  .bg-purple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6415ff;
+    width: 80%;
+    height: auto;
+    margin-bottom: 48px;
+    border-radius: 7px;
+  }
+
+  .bg-purple h2 {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .buttons__bottom__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .get__started__bottom--btn,
+  .contact__us__bottom--btn {
+    width: fit-content;
+    white-space: nowrap;
+    padding: 16px 24px;
+  }
+
+  .get__started__bottom--btn {
+    background-color: red;
   }
 }
